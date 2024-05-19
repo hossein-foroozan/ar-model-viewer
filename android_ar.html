@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Model Viewer</title>
+    <script>
+        function openAR() {
+            const arLink = 'intent://arvr.google.com/scene-viewer/1.0?file=https://YOUR_USERNAME.github.io/ar-model-viewer/Biscan.gltf&mode=ar_preferred#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;end;';
+            window.location.href = arLink;
+        }
+        window.onload = openAR;
+    </script>
+</head>
+<body>
+    <h1>Loading AR...</h1>
+</body>
+</html>
